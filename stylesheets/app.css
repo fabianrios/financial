@@ -1,4 +1,6 @@
-/* line 3, ../sass/app.scss */
-body {
-  background: #000099;
+/* line 14, ../sass/app.scss */
+header.main {
+  background: #87b840;
+  min-height: 365px;
+  width: 100%;
 }

@@ -1,7 +1,22 @@
 @import "compass/css3";
 
-body {
+// variables
 
-  background: darken(#0000ff,20%);
+$main-green:#87b840;
 
+// index
+// 1. HOME
+
+
+// 1. HOME
+
+header{
+  &.main{
+    background:$main-green;
+    min-height: 365px;
+    width: 100%;
+  }
 }
+
+/// 1. HOME
+
