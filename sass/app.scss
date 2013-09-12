@@ -4,9 +4,28 @@
 
 $main-green:#87b840;
 
-// index
-// 1. HOME
+.pv-30{
+  padding: 30px 0;
+}
 
+// index
+
+//  0. OVERRIDES
+//  1. HOME
+
+// /index
+
+//  0. OVERRIDES
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: normal;
+  color:#979797;
+}
+
+.navbar{
+  margin: 0;
+  }
 
 // 1. HOME
 
