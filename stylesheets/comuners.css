@@ -1,0 +1,41 @@
+/* line 10, ../sass/comuners.scss */
+.main-border {
+  border: 1px solid #78a438;
+}
+
+/* line 14, ../sass/comuners.scss */
+a {
+  font-size: 14px;
+  text-decoration: underline;
+  color: #212121;
+}
+/* line 18, ../sass/comuners.scss */
+a:hover, a.active {
+  color: #f5821f;
+}
+/* line 21, ../sass/comuners.scss */
+a.visited {
+  color: #979797;
+}
+
+/* line 40, ../sass/comuners.scss */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+  background-color: #fcfcfc;
+  border-radius: 8px;
+  border: 2px solid #e6e6e6;
+  font-size: 14px;
+  color: #979797;
+}

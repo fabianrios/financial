@@ -1,0 +1,46 @@
+// variables
+$dark_green:#78a438;
+$main_size:14px;
+$color_link:#212121;
+$orange: #f5821f;
+$visited: #979797;
+$input_back: #fcfcfc;
+$input_stroke: #e6e6e6;
+
+.main-border{
+  border: 1px solid $dark_green;
+}
+
+a{
+  font-size: $main_size;
+  text-decoration: underline;
+  color: $color_link;
+  &:hover,&.active{
+    color: $orange;
+  }
+  &.visited{
+    color:$visited;
+  }
+}
+
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+  background-color:$input_back;
+  border-radius:8px;
+  border:2px solid $input_stroke;
+  font-size: $main_size;
+  color: $visited;
+}
