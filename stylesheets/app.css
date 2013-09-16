@@ -1,9 +1,103 @@
-/* line 7, ../sass/app.scss */
-.pv-30 {
-  padding: 30px 0;
+/* line 22, ../sass/_comuners.scss */
+.main-border {
+  border: 1px solid #638e3b;
 }
 
-/* line 19, ../sass/app.scss */
+/* line 26, ../sass/_comuners.scss */
+.lg-green {
+  color: #ccf68f;
+}
+
+/* line 30, ../sass/_comuners.scss */
+.dk-green {
+  color: #638e3b;
+}
+
+/* line 34, ../sass/_comuners.scss */
+.orange {
+  color: #f5821f;
+}
+
+/* line 38, ../sass/_comuners.scss */
+.white {
+  color: #fff;
+}
+
+/* line 42, ../sass/_comuners.scss */
+.normal {
+  font-weight: normal;
+}
+
+/* line 46, ../sass/_comuners.scss */
+.light {
+  font-weight: 200;
+}
+
+/* line 50, ../sass/_comuners.scss */
+.bold {
+  font-weight: bold;
+}
+
+/* line 54, ../sass/_comuners.scss */
+.no-margin {
+  margin: 0;
+}
+
+/* line 59, ../sass/_comuners.scss */
+.ptv-50 {
+  padding: 50px 0 0 0;
+}
+
+/* line 63, ../sass/_comuners.scss */
+.center {
+  margin: 0 auto;
+  text-align: center;
+  float: none;
+}
+
+/* line 73, ../sass/_comuners.scss */
+a {
+  font-size: 14px;
+  text-decoration: underline;
+  color: #212121;
+}
+/* line 77, ../sass/_comuners.scss */
+a:hover, a.active {
+  color: #f5821f;
+}
+/* line 80, ../sass/_comuners.scss */
+a.visited {
+  color: #979797;
+}
+
+/* line 85, ../sass/_comuners.scss */
+h1, .h1 {
+  font-size: 52px;
+}
+
+/* line 102, ../sass/_comuners.scss */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+  background-color: #fcfcfc;
+  border-radius: 8px;
+  border: 2px solid #e6e6e6;
+  font-size: 14px;
+  color: #979797;
+}
+
+/* line 110, ../sass/_comuners.scss */
 label {
   display: block;
   margin-bottom: 5px;
@@ -11,14 +105,80 @@ label {
   color: #979797;
 }
 
-/* line 26, ../sass/app.scss */
+/* line 118, ../sass/_comuners.scss */
 .navbar {
   margin: 0;
 }
 
-/* line 33, ../sass/app.scss */
+/* line 17, ../sass/app.scss */
 header.main {
-  background: #87b840;
+  background: #83b754;
   min-height: 365px;
   width: 100%;
+}
+/* line 21, ../sass/app.scss */
+header.main h1 {
+  letter-spacing: 3px;
+}
+/* line 24, ../sass/app.scss */
+header.main p {
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+/* line 31, ../sass/app.scss */
+ul.menu {
+  list-style-type: none;
+  position: relative;
+  top: 90px;
+}
+/* line 35, ../sass/app.scss */
+ul.menu li {
+  display: inline-block;
+  width: 23%;
+  height: 185px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  background: #83b754;
+  margin: 0 5%;
+}
+/* line 42, ../sass/app.scss */
+ul.menu li a {
+  background: #638e3b;
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  margin-top: 30px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  text-decoration: none;
+  -moz-box-shadow: inset 0 2px 5px rgba(50, 50, 50, 0.3);
+  -webkit-box-shadow: inset 0 2px 5px rgba(50, 50, 50, 0.3);
+  box-shadow: inset 0 2px 5px rgba(50, 50, 50, 0.3);
+  border-bottom: 2px solid #96c74f;
+}
+/* line 55, ../sass/app.scss */
+ul.menu li a span.text {
+  position: relative;
+  text-align: center;
+  top: 200px;
+  text-decoration: none;
+}
+/* line 63, ../sass/app.scss */
+ul.menu li:hover {
+  background: #f5821f;
+}
+/* line 65, ../sass/app.scss */
+ul.menu li:hover a {
+  background: #fff;
+  -moz-box-shadow: inset 0 2px 5px rgba(50, 50, 50, 0);
+  -webkit-box-shadow: inset 0 2px 5px rgba(50, 50, 50, 0);
+  box-shadow: inset 0 2px 5px rgba(50, 50, 50, 0);
+  border-bottom: 0 solid #96c74f;
 }

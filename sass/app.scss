@@ -1,31 +1,15 @@
 @import "compass/css3";
+@import "comuners";
 
 // variables
 
-$main-green:#87b840;
+$main-green:#83B754;
 
-.pv-30{
-  padding: 30px 0;
-}
+// INDEX
 
-// index
-
-//  0. OVERRIDES
 //  1. HOME
 
-// /index
-
-//  0. OVERRIDES
-label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: normal;
-  color:#979797;
-}
-
-.navbar{
-  margin: 0;
-  }
+// /INDEX
 
 // 1. HOME
 
@@ -34,6 +18,58 @@ header{
     background:$main-green;
     min-height: 365px;
     width: 100%;
+    h1{
+      letter-spacing:3px;
+    }
+    p{
+      font-weight: 200;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+ul.menu{
+  list-style-type: none;
+  position: relative;
+  top: 90px;
+  li{
+    display: inline-block;
+    width: 23%;
+    height:185px;
+    @include border-radius(100%);
+    background:$main_green;
+    margin: 0 5%;
+    a{
+      background:$dark-green;
+      display: inline-block;
+      height: 120px;
+      width: 120px;
+      margin-top: 30px;
+      @include border-radius(100%);
+      text-decoration: none; 
+      -moz-box-shadow:    inset 0 2px 5px rgba(50,50,50,.3);
+       -webkit-box-shadow: inset 0 2px 5px rgba(50,50,50,.3);
+       box-shadow:         inset 0 2px 5px rgba(50,50,50,.3);
+       border-bottom: 2px solid #96c74f;
+      span{
+        &.text{
+          position: relative;
+          text-align: center;
+          top: 200px;
+          text-decoration: none;
+        }
+      }
+    }
+  &:hover{
+    background:$orange;
+    a{
+      background: #fff;
+      -moz-box-shadow:    inset 0 2px 5px rgba(50,50,50,0);
+       -webkit-box-shadow: inset 0 2px 5px rgba(50,50,50,0);
+       box-shadow:         inset 0 2px 5px rgba(50,50,50,0);
+       border-bottom: 0 solid #96c74f;
+    }
+  }
   }
 }
 

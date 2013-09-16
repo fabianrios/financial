@@ -1,24 +1,74 @@
-/* line 10, ../sass/comuners.scss */
+/* line 22, ../sass/comuners.scss */
 .main-border {
-  border: 1px solid #78a438;
+  border: 1px solid #638e3b;
 }
 
-/* line 14, ../sass/comuners.scss */
+/* line 26, ../sass/comuners.scss */
+.lg-green {
+  color: #ccf68f;
+}
+
+/* line 30, ../sass/comuners.scss */
+.dk-green {
+  color: #638e3b;
+}
+
+/* line 34, ../sass/comuners.scss */
+.orange {
+  color: #f5821f;
+}
+
+/* line 38, ../sass/comuners.scss */
+.white {
+  color: #fff;
+}
+
+/* line 42, ../sass/comuners.scss */
+.normal {
+  font-weight: normal;
+}
+
+/* line 46, ../sass/comuners.scss */
+.light {
+  font-weight: 200;
+}
+
+/* line 50, ../sass/comuners.scss */
+.bold {
+  font-weight: bold;
+}
+
+/* line 54, ../sass/comuners.scss */
+.no-margin {
+  margin: 0;
+}
+
+/* line 59, ../sass/comuners.scss */
+.ptv-30 {
+  padding: 30px 0 0 0;
+}
+
+/* line 67, ../sass/comuners.scss */
 a {
   font-size: 14px;
   text-decoration: underline;
   color: #212121;
 }
-/* line 18, ../sass/comuners.scss */
+/* line 71, ../sass/comuners.scss */
 a:hover, a.active {
   color: #f5821f;
 }
-/* line 21, ../sass/comuners.scss */
+/* line 74, ../sass/comuners.scss */
 a.visited {
   color: #979797;
 }
 
-/* line 40, ../sass/comuners.scss */
+/* line 79, ../sass/comuners.scss */
+h1, .h1 {
+  font-size: 52px;
+}
+
+/* line 96, ../sass/comuners.scss */
 input[type="text"],
 input[type="password"],
 input[type="date"],
@@ -38,4 +88,17 @@ textarea {
   border: 2px solid #e6e6e6;
   font-size: 14px;
   color: #979797;
+}
+
+/* line 104, ../sass/comuners.scss */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: normal;
+  color: #979797;
+}
+
+/* line 112, ../sass/comuners.scss */
+.navbar {
+  margin: 0;
 }

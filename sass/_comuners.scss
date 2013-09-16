@@ -1,0 +1,123 @@
+// made at fabianrios.co
+// 1. VARIABLES
+// 2. COMMON CLASSES
+// 3. OVERRIDE
+
+
+// 1. VARIABLES
+$dark_green:#638E3B;
+$light_green:#ccf68f;
+$main_size:14px;
+$color_link:#212121;
+$orange: #f5821f;
+$visited: #979797;
+$input_back: #fcfcfc;
+$input_stroke: #e6e6e6;
+// /1. VARIABLES
+
+
+
+// 2. COMMON CLASSES
+
+.main-border{
+  border: 1px solid $dark_green;
+}
+
+.lg-green{
+  color:$light_green;
+}
+
+.dk-green{
+  color:$dark_green;
+}
+
+.orange{
+  color:$orange;
+}
+
+.white{
+  color:#fff;
+}
+
+.normal{
+  font-weight: normal;
+}
+
+.light{
+  font-weight: 200;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.no-margin{
+ margin: 0; 
+}
+
+
+.ptv-50{
+  padding: 50px 0 0 0;
+}
+
+.center{
+  margin: 0 auto;
+  text-align: center;
+  float: none;
+}
+
+// /2. COMMON CLASSES
+
+
+// 3. OVERRIDE
+a{
+  font-size: $main_size;
+  text-decoration: underline;
+  color: $color_link;
+  &:hover,&.active{
+    color: $orange;
+  }
+  &.visited{
+    color:$visited;
+  }
+}
+
+h1, .h1{
+  font-size: 52px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+  background-color:$input_back;
+  border-radius:8px;
+  border:2px solid $input_stroke;
+  font-size: $main_size;
+  color: $visited;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: normal;
+  color:#979797;
+}
+
+
+.navbar{
+  margin: 0;
+  }
+
+
+// /3. OVERRIDE
